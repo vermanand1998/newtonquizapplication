@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz WebPage</title>
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="welcome_text">
+
+            <h1 style="color: yellowgreen;">Enter Your Details:</h1>
+            <br><br>
+            <form class="welcome_form" name="welcome_form" onsubmit="submitForm(event)">
+
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="name1" placeholder="Enter your email" required>
+                <br>
+                <div>
+                    <h1 style="color:yellowgreen">Instruction:</h1><br><br>
+                    <h3 style="color:cyan">1. Total Number of Question is 5.</h3>
+                    <h3 style="color:cyan">3. Each question are of 1 points.</h3>
+                    <h3 style="color:cyan">4. No negative marking.</h3>
+                </div>
+                <br><br>
+                <button>Start Quiz</button>
+            </form>
+
+        </div>
+    </div>
+
+    <!-- site.js -->
+    <script src="start.js"></script>
+
+</body>
+
+</html>

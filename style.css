@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato";
+}
+.wrapper {
+  display: flex;
+  justify-content:center;
+  padding-top: 12%;
+  width: 100vw;
+  height: 100vh;
+  background-color:darkslategray;
+}
+
+.welcome_text {
+  width: 400px;
+}
+.welcome_form input,
+.welcome_form button {
+  display: block;
+  width: 100%;
+}
+
+.welcome_form input {
+  background-color: transparent;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid dodgerblue;
+  margin-bottom: 15px;
+}
+
+.welcome_form input:focus {
+  outline: none;
+
+}
+
+.welcome_form button {
+  padding: 20px 0;
+  border: none;
+  border-radius: 100px;
+  background-color:lightgrey;
+  color:black;
+  font-size: 22px;
+  transition: 0.4s all;
+  font-weight: bolder;
+  
+}
+
+.welcome_form button:hover {
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  cursor: pointer;
+  background-color: chartreuse;
+}
+.award_icon {
+  display: block;
+  font-size: 300px;
+  color: #fff;
+}
+
+.username,
+.userpoints,
+.usertime {
+  color: #fff;
+  text-align: center;
+  margin-top: 15px;
+}
+
